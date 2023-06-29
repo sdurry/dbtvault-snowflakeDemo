@@ -8,7 +8,7 @@ sources:
       We use the [TPCH dataset](https://docs.snowflake.com/en/user-guide/sample-data-tpch.html) 
       to create a sample project to emulate what a production project might look like!
     database: raw_tpch
-    schema: tpch_sf1
+    schema: TPCH_SF{{ env_var('DBT_TPCH_SIZE') }}
     tables:
       - name: ORDERS
         description: main order tracking table
