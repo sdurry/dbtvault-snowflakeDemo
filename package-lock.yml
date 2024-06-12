@@ -1,0 +1,6 @@
+packages:
+  - package: Datavault-UK/dbtvault
+    version: 0.8.3
+  - package: dbt-labs/dbt_utils
+    version: 0.8.6
+sha1_hash: 2a47fb55e8d8a33a28f98cce07c7b6a81b29978f
