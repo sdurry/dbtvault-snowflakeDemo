@@ -7,8 +7,8 @@ sources:
       Welcome to the dbt Labs demo dbt project! 
       We use the [TPCH dataset](https://docs.snowflake.com/en/user-guide/sample-data-tpch.html) 
       to create a sample project to emulate what a production project might look like!
-    database: raw_tpch
-    schema: TPCH_SF{{ env_var('DBT_TPCH_SIZE') }}
+    database: raw
+    schema: tpch_iceberg
     tables:
       - name: ORDERS
         description: main order tracking table
